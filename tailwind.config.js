@@ -60,7 +60,7 @@ module.exports = {
 
         },
         backgroundImage: {
-          'sidebar-desktop' : 'url(./src/assets/images/bg-sidebar-desktop.svg)',
+          'sidebar-desktop' : 'url(/images/bg-sidebar-desktop.svg)',
           'sidebar-mobile' : 'url(./src/assets/images/bg-sidebar-mobile.svg)',
           'logo-bg' : 'url(/logo.svg)',
           'landing-bg' : 'url(./src/assets/images/blacktexture.png)',

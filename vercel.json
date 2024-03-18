@@ -1,5 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*).(?!svg$)", "destination": "/index.html" }
+      { "source": "/images/:path*", "destination": "/images/:path*" },
+      { "source": "/:path*", "destination": "/index.html" }
     ]
 }
