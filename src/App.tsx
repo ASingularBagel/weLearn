@@ -19,6 +19,8 @@ import Login from './pages/login'
 import Dashboard from './pages/dashboard'
 import LandingPage from './pages/landing'
 
+import { Analytics } from "@vercel/analytics/react"
+
 // Main render function
 // Could be home page, could be a redirect to a login page, etc.
 // Not really anything concrete
