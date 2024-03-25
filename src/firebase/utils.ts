@@ -398,7 +398,7 @@ export const getFeaturedCourses = async () : Promise<Course[]> => {
   let featuredCourses: Course[] = [];
 
   // Each topic has 10 courses
-  for(let i = 0; i < 10; i++){
+  for(let i = 0; i < 25; i++){
     const courseRef = child(getDatabaseRef(), `courses/${i}`);
     const coursesSnapshot = await get(courseRef);
 
