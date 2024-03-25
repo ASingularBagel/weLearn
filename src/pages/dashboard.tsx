@@ -17,7 +17,7 @@ import { Courses }  from '../components/dashboard/courses';
 import {TimesTable } from '../components/dashboard/timestable';
 
 export default function Dashboard() {
-    const [tab, setTab] = useState('Home');
+    const [tab, setTab] = useState('Analytics');
 
     useEffect(() => {
         document.title = "weLearn | Dashboard"
